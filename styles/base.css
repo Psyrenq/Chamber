@@ -8,7 +8,6 @@
 *{
   font-family: 'Inter Tight', sans-serif;
   font-family: 'Roboto', sans-serif;
-  font-family: Arial, Helvetica, sans-serif;
   text-shadow: 1px 2px 5px #000000;
 }
 html {
@@ -28,29 +27,46 @@ body {
     max-width: 700px;
     background-color: white;
   }
+  header img{
+    float: inline-start;
+    width: 150px;
+    align-self: left;
+  }
    header {
-    height: 120px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: left;
     background-color: rgb(120, 167, 183);
     border-radius: 3px;
+    margin-bottom: 15px;
   }
   h1 {
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    background-color: rgb(120, 167, 183);
-    border-radius: 3px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+    list-style-type: none;
   }
-  ul.titleHeader{
+  p {
+    width: 700px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(83, 131, 147);
+  }
+  /*h1 {
+    border-top: solid 1px #000000;
+    padding: 10px;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+  }*/
+ /* ul.titleHeader{
     font-family: 'Inter Tight', sans-serif;
     font-size: 35px;
     padding: 0%;
     margin: 6px;
     list-style-type: none;
-  }
+  }*/
   ul.footerText{
     font-family: 'Inter Tight', sans-serif;
     font-size: 20px;

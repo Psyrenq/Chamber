@@ -1,4 +1,4 @@
-t daynames = [
+let daynames = [
     "Sunday",
     "Monday",
     "Tuesday",
