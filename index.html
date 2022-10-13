@@ -6,23 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
-        <h1 class="titleHeader">
-            <img src="images/logo1.jpg" alt="Logo">
+        <img src="images/logo1.jpg" alt="Logo">
+        <h1>
             <li>Interplanetary</li>
             <li>Chamber of Commerce</li>
-            <p>
-                <span id="currentdate"></span>
-                <script src="scripts/script.js"></script>
-            </p>
         </h1>
     </header>
-    <main></main>
+    <nav>
+        <ul>
+            <a class="menu" href="#">Menu</a>
+            <a href="#">Discovery</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Contact</a>
+        </ul>
+    </nav>
+    <h2>
+        <span id="currentdate"></span>
+        <script src="scripts/script.js"></script>
+    </h2>
+    </nav>
+    <main>
+        <section class="hero">Hero with a name and call to action</section>
+        <section class="event">Event</section>
+        <section class="weather">Weather</section>
+        <section class="news">News</section>
+        <section class="spotLight">
+            <p>Spotlight 1</p>
+            <p>Spotlight 2</p>
+        </section>
+    </main>
     <footer>
-        
+        Last updated:
+            <span id="currentdate"></span>
+            <script src="scripts/script.js"></script> 
     </footer>
 </body>
 </html>

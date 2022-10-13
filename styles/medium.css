@@ -1,0 +1,16 @@
+@media only screen and (min-width: 37.5em) {
+    header img{
+        height: 150px;
+    }
+    header{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    h1, h2, footer{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+      nav {
+		max-width: 920px;
+	}
+}

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 60em) {
+	
+    h1 {
+		font-size: 2rem;
+	}
+
+	nav ul li a {
+		font-size: 1.2rem;
+    }
+    header{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    h1, h2, footer, main{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+      .hero, .weather, .event, .spotLight, .news {
+        height: 125px;
+        font-size: 1.5rem;
+      }
+	nav {
+		max-width: 1420px;
+	}
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 auto; } 
+    nav a {
+      font-size: 1rem;
+      padding: 1px 6.5rem;
+  }
+}
