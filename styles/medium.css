@@ -13,4 +13,13 @@
       nav {
 		max-width: 920px;
 	}
+    .social {
+        display: flex;
+        margin-top: 14%;
+          margin-left: 10rem;
+      }
+      .social svg {
+        width: 55px;
+        height: auto;
+    }    
 }

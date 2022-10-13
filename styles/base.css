@@ -93,3 +93,11 @@ p{
   margin: 3px auto;
   text-shadow:none;
 }
+.social {
+  display: flex;
+  margin-top: 20%;
+}
+.social svg {
+	width: 25px;
+	height: auto;
+}
