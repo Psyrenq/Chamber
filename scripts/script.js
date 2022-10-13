@@ -25,9 +25,22 @@ let months = [
 let d = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
-let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + d.getFullYear();
+let fdate = dayName + ", " + monthName + " " + d.getDate() +", " + d.getFullYear();
 let fullyear = d.getFullYear();
 
 const currentdate = "currentdate";
-document.getElementById(currentdate).textContent = fulldate;
+document.getElementById(currentdate).textContent = fdate;
 document.getElementById("currentyear").textContent = fullyear;
+
+document.getElementById("timestamp").textContent = document.lastModified;
+
+let year = new Date().getFullYear()
+document.getElementById("currentyear").textContent = year;
+
+const datefield = document.querySelector(".date");
+
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now
+);
+datefield.innerHTML = `${fulldate}`;
