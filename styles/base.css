@@ -7,51 +7,94 @@ html{
   font-family: 'Roboto', sans-serif;
   text-shadow: 2px 1px 4px #000000;
 }
-header, main, footer, h2{
-  max-width: 767px;
-	margin: 0 auto;
-}
-.hero, .weather, .event, .spotLight, .news {
-  height: 100px;
-  font-weight: bold;
-  font-size: 1rem;
-  width: flex;
-  border: 2px solid black;
-  border-radius: 5px;
-  margin: 3px auto;
-  text-shadow:none;
-}
 main{
   display: grid;
 	grid-template-columns: 1fr;
-	font-size: 1rem;
+  width: fit-content;
   background-color: whitesmoke;
 }
-h1{
-  font-size: 1.3rem;
+.hero, .weather, .event, .news, .join, .spotLight{
+  font-size: 1rem;
+  height: 100px;
+  width: 410px;
+  max-width: 760px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0px auto;
+  text-shadow:none;
 }
-h2{
+p{
+  padding: 1%;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-shadow:none;
+}
+.hero{
+  grid-column: 1;
+  grid-row: 1;
+}
+.weather{
+  grid-column: 1;
+  grid-row: 2;
+}
+.spotLight{
+  grid-column: 1;
+  grid-row: 3;
+}
+.event{
+  grid-column: 1;
+  grid-row: 4;
+}
+.news{
+  grid-column: 1;
+  grid-row: 5;
+}
+.join{
+  grid-column: 1;
+  grid-row: 6;
+}
+header{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: fit-content;
+  margin-top: 2px;
   border-style: solid;
-  text-align: center;
   background-color: #78a7b7;
-  font-size: 1.2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 header img{
-  height: 90px;
+  height: 70px;
   margin:10px;
+  grid-column: 1;
+  grid-row: 1;
 }
-header{
-  margin-top: 2px;
-  border-style: solid;
-  display: flex;
-  width: flex;
-  background-color: #78a7b7;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+h1{
+  font-size: 1.3rem;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 130px;
+}
+h2{
+  font-size: 1.2rem;
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+}
+.social {
+  grid-column: 1;
+  grid-row: 1;
+}
+.social svg {
+	width: 150px;
+	height: 20px;
 }
 nav{
+  grid-column: 1;
+  grid-row: 2;
   border-style: solid;
   margin-top: 0 auto;
   max-width: 780;
@@ -65,7 +108,6 @@ nav ul a {
 	display: block;
 	color: black;
 	text-align: center;
-	padding: -0.75rem;
 	text-decoration: none;
 	font-size: 1.5rem;
 	transition: 0.3s;
@@ -83,19 +125,4 @@ footer{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-p{
-  padding: 1%;
-  font-size: 1rem;
-  border: 2px solid black;
-  border-radius: 5px;
-  margin: 3px auto;
-  text-shadow:none;
-}
-.social {
-  display: flex;
-  margin-top: 20%;
-}
-.social svg {
-	width: 45px;
-	height: auto;
-}
+

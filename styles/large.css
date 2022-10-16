@@ -1,42 +1,99 @@
-@media only screen and (min-width: 60em) {
-	
+@media only screen and (min-width: 60em) {	
+    main{
+        display: grid;
+        grid-template-columns:1fr 2fr 1fr;
+        width: fit-content;
+        margin: 0 auto;
+        height: fit-content;
+    }
     h1 {
+        margin-top: 45px;
 		font-size: 2rem;
+        margin-left: 250px;
 	}
+    header img{
+        height: 150px;
+        }
     header{
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
-        max-width: 1400px;
-        margin: 0 auto;
-        margin-top: 2px;
-    }
-    h1, h2, footer, main{
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         max-width: 1400px;
         margin: 0 auto;
+        margin-top: 2px;
+    }
+    footer{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        width: 1400px;
+        margin: 0 auto;
+        height: fit-content;
       }
-      .hero, .weather, .event, .spotLight, .news {
-        height: 125px;
+     .hero, .weather, .event, .spotLight, .news, .join {
         font-size: 1.5rem;
       }
+      p{
+        padding: 1%;
+        width: 300px;
+        font-size: 1.5rem;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow:none;
+      }
+      .hero{
+        grid-column: 2;
+        grid-row: 1;
+        width: 700px;
+        height: 200px;
+      }
+      .weather{
+        grid-column: 1;
+        grid-row: 2;
+        margin-right: 0%;
+      }
+      .spotLight{
+        grid-column: 3;
+        grid-row: 1;
+        height: 200px;
+        width: fit-content;
+      }
+      .event{
+        grid-column: 1;
+        grid-row: 1;
+        margin-left:0%;
+      }
+      .news{
+        grid-column: 2;
+        grid-row: 2;
+        height: 200px;
+        width: 700px;
+      }
+      .join{
+        grid-column: 1;
+        grid-row: 3;
+      }
+      .event, .weather, .join{
+        width: 300px;
+        height: 200px;
+      }
     nav {
-		max-width: fit-content;
+		max-width: 1400px;
 	}
     nav ul { 
         display: flex;
      }
     nav a {
       font-size: 1rem;
-      padding: 0 6.3rem;
+      padding: 0 4.1rem;
   }
   .social {
-    display: flex;
-    margin-top: 5%;
+    margin-top: 0px;
+    margin-left: 0%;
   }
   .social svg {
-	width: 55px;
-	height: auto;
+    max-width: fit-content;
+    height: fit-content;
 }
 
 }
