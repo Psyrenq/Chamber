@@ -1,22 +1,25 @@
 @media only screen and (min-width: 37.5em) {
     header img{
-        height: 150px;
+        height: 130px;
     }
     header{
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        margin-top: 2px;
+    }
+    h1{
+        font-size: 2rem;
     }
     h1, h2, footer{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
       }
       nav {
-		max-width: 920px;
+		max-width: flex;
 	}
     .social {
         display: flex;
         margin-top: 14%;
-          margin-left: 10rem;
       }
       .social svg {
         width: 55px;

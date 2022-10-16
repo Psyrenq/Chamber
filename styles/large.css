@@ -8,6 +8,7 @@
         border-top-right-radius: 30px;
         max-width: 1400px;
         margin: 0 auto;
+        margin-top: 2px;
     }
     h1, h2, footer, main{
         border-bottom-left-radius: 30px;
@@ -19,23 +20,19 @@
         height: 125px;
         font-size: 1.5rem;
       }
-    
-  nav ul li a {
-		font-size: 1.2rem;
-    }
-	nav {
-		max-width: 1420px;
+    nav {
+		max-width: fit-content;
 	}
-    nav ul { display: flex; }
-    nav ul li { flex: 1 1 auto; } 
+    nav ul { 
+        display: flex;
+     }
     nav a {
       font-size: 1rem;
-      padding: 1px 6.5rem;
+      padding: 0 6.3rem;
   }
   .social {
     display: flex;
     margin-top: 5%;
-    margin-left: 42rem;
   }
   .social svg {
 	width: 55px;

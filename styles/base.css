@@ -7,7 +7,7 @@ html{
   font-family: 'Roboto', sans-serif;
   text-shadow: 2px 1px 4px #000000;
 }
-header, main, footer, h1, h2{
+header, main, footer, h2{
   max-width: 767px;
 	margin: 0 auto;
 }
@@ -28,8 +28,7 @@ main{
   background-color: whitesmoke;
 }
 h1{
-  list-style: none;
-  margin: 1%;
+  font-size: 1.3rem;
 }
 h2{
   border-style: solid;
@@ -40,11 +39,11 @@ h2{
   border-bottom-right-radius: 10px;
 }
 header img{
-  height: 100px;
+  height: 90px;
   margin:10px;
 }
 header{
-  margin-top: 1%;
+  margin-top: 2px;
   border-style: solid;
   display: flex;
   width: flex;
@@ -61,7 +60,6 @@ nav{
 }
 nav ul {
 	list-style-type: none;
-	overflow: hidden;
 }
 nav ul a {
 	display: block;
@@ -70,10 +68,10 @@ nav ul a {
 	padding: -0.75rem;
 	text-decoration: none;
 	font-size: 1.5rem;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 nav a:hover {
-  transition: 0.7s;
+  transition: 0.6s;
 	background-color: #78a7b7;
 	color: white;
 }
@@ -98,6 +96,6 @@ p{
   margin-top: 20%;
 }
 .social svg {
-	width: 25px;
+	width: 45px;
 	height: auto;
 }
