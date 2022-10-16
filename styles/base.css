@@ -125,4 +125,35 @@ footer{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
 
+.navigation a.menu::before {
+	content: "|||";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}
+
+.responsive a.menu::before {
+	content: "X ";
+}
