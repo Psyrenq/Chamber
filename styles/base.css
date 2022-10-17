@@ -74,7 +74,7 @@ header img{
   grid-row: 1;
 }
 h1{
-  font-size: 1.5rem;
+  font-size: 1rem;
   grid-column: 1;
   grid-row: 1;
   margin-left: 120px;
@@ -82,19 +82,16 @@ h1{
 
 }
 h2{
-  font-size: 1.2rem;
+  font-size: 0.85rem;
   grid-column: 1;
   grid-row: 3;
   text-align: center;
-  width: fit-content;
 }
 nav{
   grid-column: 1;
   grid-row: 2;
   border-style: solid;
   background-color: #55747e;
-  margin: 0;
-  width: 406px;
 }
 nav ul a {
 	display: block;
@@ -131,4 +128,7 @@ footer{
 }
 .responsive li {
 	display: block;
+}
+.responsive:after{
+  display: "X"
 }
