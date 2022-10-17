@@ -10,7 +10,7 @@
         grid-template-areas:
         'e h s'
         'w h s'
-        'j n .';
+        'j n s';
     }
     .hero{
         grid-area: h;
