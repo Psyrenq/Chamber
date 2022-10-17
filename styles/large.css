@@ -82,11 +82,7 @@
 	}
     nav ul { 
         display: flex;
-     }
-    nav a {
-      font-size: 1rem;
-      padding: 0 4.1rem;
-  }
+    }
   .social {
     margin-top: 0px;
     margin-left: 0%;
