@@ -43,7 +43,7 @@ const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
-datefield.innerHTML = `${fulldate}`;
+/*datefield.innerHTML = `${fulldate}`;*/
 
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
