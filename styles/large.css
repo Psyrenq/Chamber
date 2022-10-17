@@ -1,14 +1,16 @@
 @media only screen and (min-width: 60em) {	
+    body{
+        width: 70%;
+        margin: 0 auto;
+      }
     main{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-auto-rows:200px;
-        max-width:55%;
         grid-template-areas:
         'e h s'
         'w h s'
         'j n .';
-        margin: 0 auto;
     }
     .hero{
         grid-area: h;
@@ -48,14 +50,11 @@
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
-        max-width: 1400px;
-        margin: 0 auto;
         margin-top: 2px;
     }
     footer{
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
-        width: 1400px;
         margin: 0 auto;
         height: fit-content;
       }
