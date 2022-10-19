@@ -77,7 +77,7 @@ h3{
   grid-area: w;
 }
 .weather img{
-  width: 35%;
+  width: 25%;
 }
 .temp{
   font-size:minmax(8rem);
