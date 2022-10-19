@@ -6,7 +6,7 @@
     main{
         display: grid;
         grid-template-columns: repeat(3,3fr);
-        grid-template-rows:300px 295px 350px;
+        grid-template-rows:300px 295px 310px;
         row-gap: 10px;
         column-gap: 10px;
         grid-template-areas:
@@ -84,7 +84,7 @@
         border-radius: 40px;
       }
       .spotLight3 img{
-        height: 140px;
+        height: 200px;
         border-radius: 20px;
       }
     h1 {
