@@ -80,7 +80,7 @@ h3{
   width: 25%;
 }
 .temp{
-  font-size:minmax(8rem);
+  font-size:3rem;
 }
 .event{
   grid-area: e;
