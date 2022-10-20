@@ -9,7 +9,9 @@
         'j j j'
         'e w w';
     }
-    
+    html{
+        height: 100%
+      }
 .joinNow{
     top: 100px;
     margin-left: 40px;
