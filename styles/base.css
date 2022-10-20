@@ -6,8 +6,8 @@
 html{
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px 4px #000000;
-  background: linear-gradient(#78a7b7, rgb(36, 36, 36), rgb(0, 0, 0));
-  height: fit-content;
+  background: linear-gradient(#78a7b7, rgb(36, 36, 36), rgb(0, 0, 0), rgb(0,0,0));
+  height: 100%;
 }
 main{
   display: grid;
