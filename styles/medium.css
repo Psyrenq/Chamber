@@ -9,8 +9,14 @@
         'j j j'
         'e w w';
     }
+    
+.joinNow{
+    top: 100px;
+    margin-left: 40px;
+  
+  }
     .hero img{
-        height: 200px;
+        height: 310px;
     }
       @media only screen and (min-width: 3.5em) {
         .navigation {
