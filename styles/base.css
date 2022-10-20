@@ -7,7 +7,7 @@ html{
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px 4px #000000;
   background: linear-gradient(#78a7b7, rgb(36, 36, 36), rgb(0, 0, 0));
-  height: 1500px;
+  height: fit-content;
 }
 main{
   display: grid;

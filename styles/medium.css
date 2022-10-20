@@ -12,8 +12,6 @@
     .hero img{
         height: 200px;
     }
-    .joinNow{
-    }
       @media only screen and (min-width: 3.5em) {
         .navigation {
             font-size: 1.5rem;
