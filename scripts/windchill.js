@@ -5,8 +5,7 @@ const windChillOutput = document.querySelector("#windchill");
 const speedInput = 12
 const tempInput = 42
 
-function getWindChill(speedInput, tempInput)
-{
+function getWindChill(speedInput, tempInput) {
     let windChill = "N/A";
 
     if (speedInput > 3 && tempInput <=50){
@@ -21,6 +20,6 @@ function getWindChill(speedInput, tempInput)
     return windChill;
 
 }
-mph.textContent = `${mphInput}`;
+speed.textContent = `${speedInput}`;
 temp.textContent = `${tempInput}`;
 windChillOutput.textContent = getWindChill(speedInput,tempInput);
