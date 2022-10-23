@@ -15,10 +15,13 @@
 </head>
 <body>
     <header>
-        <img src="images/logo1.jpg" alt="Logo">
+        <img src="images/logo1.webp" alt="Logo">
         <h1>
             Interplanetary <br>Chamber of Commerce
         </h1>
+        <div class="banner">
+            Please join us on Wednesdays for a weekly meeting to get news about the United Colonies of Space
+        </div>
         <nav>
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
@@ -37,12 +40,16 @@
     <main>
         <div class="hero">
             <h3>Welcome to Earth</h3>
-                <img src="images/Earth.jpg" alt="earth1">
-            <div class="joinNow"><a href="#">Join now</a></div>
+            <picture>
+                <source srcset="images/heroSub300x200.webp" media="(max-width: 37.5em)">
+                <source srcset="images/heroSub600x400.webp" media="(max-width: 60em)">
+                <img src="images/heroSub900x600.webp" alt="earth1">
+            </picture>
+                <div class="joinNow"><a href="#">Join now</a></div>
         </div>
         <div class="news">News
             <p>
-            <img src="images/venus.jpg" alt="Venus">
+            <img src="images/venus.webp" alt="Venus">
             <br>
             Venus colonies have decided to end negotiations of with UCS and remain independant.
             If you are a member of a Venus colony who did not vote to remain independant, please fill out a form 
@@ -50,14 +57,14 @@
         </p></div>
         <div class="spotLight">What's happening in the galaxy
                 <br>
-                <img src="images/mars.jpg" alt="Red">
+                <img src="images/mars.webp" alt="Red">
                 <br>
                 <p>Mars will potentially be having business colonization openings for young space tavellers!
             More info <a href="#" class="link">here</a></p>
         </div>
         <div class="spotLight2">In need of a refreshment?
             <br>
-               <img src="images/saturn.jpg" alt="Saturn">
+               <img src="images/saturn.webp" alt="Saturn">
                <br>
                <p>
                 Stop by Saturn for a Refreshing Fluff-Puff-Ice Cream!
@@ -66,7 +73,7 @@
            </p>
         </div>
         <div class="spotLight3">In the mood for the Moon?
-            <p><img src="images/moon.jpg" alt="Moon">
+            <p><img src="images/moon.webp" alt="Moon">
             <br>
                 Recently Married? Graduating College and in need of a vacation?
                 Well, there is no place like space, or the Moon for that matter!
@@ -75,20 +82,20 @@
         <div class="event">Ribbon Cutting!
             <p>Pluto
                 <br>
-                <img class="placeHolder" src="images/pluto.jpg" alt="Pluto">
+                <img class="placeHolder" src="images/pluto.webp" alt="Pluto">
                 <br>
                 Join us 1 week from now for Pluto's red ribbon event for openning it's first business colony!
             </p>
             </div>
             <div class="weather">Weather
                 <br>
-                <img src="images/sun.png" alt="Sun">
+                <img src="images/sun.webp" alt="Sun">
                 <br>
                 Sunny
                 <br>
                 <span id="temp"></span>°F
                 <br>
-                <span id="speed"></span>MPH
+                <span id="mph"></span>MPH
                 <br>
                 <span id="windchill"></span>
             </div>
@@ -106,5 +113,6 @@
     </footer>
     <script src="scripts/script.js"></script> 
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/date.js"></script>
 </body>
 </html>

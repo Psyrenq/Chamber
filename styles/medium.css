@@ -10,15 +10,14 @@
         'e w w';
     }
     html{
-        height: 100%;
+        height: 900px;
       }
 .joinNow{
     top: 100px;
     margin-left: 40px;
-  
   }
     .hero img{
-        height: 310px;
+      height: 310px;
     }
       @media only screen and (min-width: 3.5em) {
         .navigation {
