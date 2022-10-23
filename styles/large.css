@@ -3,9 +3,6 @@
         width: 85%;
         margin: 13px auto;
       }
-      html{
-        height: 1400px;
-      }
     main{
         display: grid;
         grid-template-columns: repeat(3,3fr);
